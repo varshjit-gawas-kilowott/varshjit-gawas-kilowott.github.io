@@ -22,12 +22,12 @@ h4{
     
     position: absolute;
   
-    transform: translate(20%,2%);
+    transform: translate(50%,2%);
 }
 .container1{
     position: relative;
     width: 700px;
-    height: 700px;
+    height: 710px;
     background: #040404;
     box-shadow: 20px 20px 20px #b6b6b6,
     -10px -10px 20px #ffffff;
@@ -100,9 +100,12 @@ h4{
     border-radius: 35px;
     text-align: center;
     line-height: 50px;
-    
+    position: absolute;
+    transform: translate(700%,25%);
     letter-spacing: 2px;
     transition: .4s ease;
+    box-shadow: 20px 20px 20px #b6b6b6,
+    -10px -10px 20px #ffffff;
 }
 .container1:hover .layer{
     height: 100%;
@@ -141,3 +144,7 @@ color: #040404;
     color: rgb(0, 0, 0);
     opacity: 1;
 }
+.note{
+    position: fixed; bottom: 0; width: 100%;
+}
+
