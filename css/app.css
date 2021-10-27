@@ -1,150 +1,17 @@
-
-body{
-    margin: 20px;
-    background: #d8d8d8;
-    font-family: 'poppins', sans-serif;
-    font-weight: 900;   
-   
+.leftcol{
+    border-right: 2px solid #ef5d57;
+    padding: 5% ;
 }
-
-p{
-    font-weight: 200;
-    line-height: 1.5;
+.rightcol{
+    background-color: lightgray;
 }
-h4{
-    font-weight: 400;
-    margin-top: 0;
+.fonts{
+    font-family: sans-serif;
 }
-
-
-
-.main-container{
-    
-    position: absolute;
-  
-    transform: translate(50%,2%);
+.bg{
+    background-color: #ef5d57;
 }
-.container1{
-    position: relative;
-    width: 700px;
-    height: 710px;
-    background: #040404;
-    box-shadow: 20px 20px 20px #b6b6b6,
-    -10px -10px 20px #ffffff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    overflow: hidden;
-    z-index: -1;
-    font-size: 1rem;
+.ff{
+    color: #fff;
 }
-.profile-pic{
-
-    width: 255px;
-    height: 255px;
-    background: url("../pro.jpg") 0 1px / cover;
-    border-radius: 50%;
-    border: 3px solid #fff;
-}
-.layer{
-    position: absolute;
-    top: 21%;
-    width: 100%;
-    height: 3px;
-    background: #d8d8d8;
-    transition: .4s ease;
-    z-index: -1;
-    overflow: hidden;
-}
-.details{
-    font-size: large;
-    text-align: center;
-    transition: .4s ease;
-    color: #d8d8d8;
-}
-.skills{
-    
-    font-size: 1.5rem;
-}
-.skills i{
-    margin: 0 .3rem;
-    opacity: 0;
-    transition: .4s ease;
-
-}
-.fa-html5{
-    color: #e34c26;
-
-}
-.fa-css3{
-    color: #0098ff;
-
-}
-.fa-code{
-    color: #1e0fa1;
-
-}
-.fa-database{
-    color: #af3080;
-
-}
-
-.btn{
-    display: block;
-    color: #b6b6b6;
-    text-decoration: none;
-    width: 155px;
-    height: 55px;
-    border: 1px solid #fff;
-    border-radius: 35px;
-    text-align: center;
-    line-height: 50px;
-    position: absolute;
-    transform: translate(700%,25%);
-    letter-spacing: 2px;
-    transition: .4s ease;
-    box-shadow: 20px 20px 20px #b6b6b6,
-    -10px -10px 20px #ffffff;
-}
-.container1:hover .layer{
-    height: 100%;
-
-}
-.container1:hover .details{
-    color: #040404;
-}
-.container1:hover .btn a{
-border-color: #040404;
-color: #040404;
-}
-.container1:hover .skills i{
-    opacity: 1;
-}
-
-.container{
-    background: #d8d8d8;
-    color: rgb(3, 3, 3);
-    padding: 20px;
-    margin-left: 200px;
-    margin-right: 200px;
-    border: none;
-    border-radius: 3%;
-    box-shadow: 20px 20px 20px #b6b6b6,
-    -10px -10px 20px #ffffff;
-    overflow: hidden;
-  
-}
-
-.container:hover{
-  height: 100%;
-    background: #cacaca;
-    box-shadow :5px 5px 8px #b9b9b9 ,
-    -5px -5px 8px #b9b9b9;
-    color: rgb(0, 0, 0);
-    opacity: 1;
-}
-.note{
-    position: fixed; bottom: 0; width: 100%;
-}
-
+;
